@@ -25,7 +25,7 @@
 
 #ifdef LWM2M_SUPPORT_JSON
 
-#define PRV_JSON_BUFFER_SIZE 1024
+#define PRV_JSON_BUFFER_SIZE 10240
 
 #define JSON_MIN_ARRAY_LEN      21      // e":[{"n":"N","v":X}]}
 #define JSON_MIN_BASE_LEN        7      // n":"N",
